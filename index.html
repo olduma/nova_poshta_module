@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nova.css">
+</head>
+<body>
+
+<label class="title" for="np_address_lite">Виберіть населений пункт:
+    <div>
+        <input type="hidden" name="np[address]" id="np_address_lite" value="f4890a83-8344-11df-884b-000c290fbeaa">
+        <div class="my-select_lite">
+            <div class="my-select-result_lite">
+                <span class="triangle_lite triangle-bottom_lite"></span>
+                населений пункт
+            </div>
+            <div class="my-select-drop_lite close">
+                <div class="my-select-search_lite">
+                    <input type="text" id="my_select_search_field_lite">
+                </div>
+                <div class="my-select-options_lite">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</label>
+<label class="title" for="np_warehouse_lite">Виберіть адресу відділення:
+    <div>
+        <label id="werehouse_label_lite" style="display: none;">Спочатку оберіть населений пункт</label>
+        <select name="np[warehouse]" id="np_warehouse_lite" style="">
+            <!--            <option value="">Номер відділення</option>-->
+        </select>
+        <!--        <button type="button" id="view_on_map_lite" class="d_l_1" style="" value="Отделение №1: ул. Шевченко, 6">Посмотреть на карте</button>-->
+        <input type="hidden" name="np[warehouse_name]" val="">
+    </div>
+</label>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="module" src="nova_poshta_easy.js"></script>
+</body>
+</html>

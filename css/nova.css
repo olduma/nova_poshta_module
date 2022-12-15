@@ -1,0 +1,338 @@
+#np_delivery_lite select {
+    width: 100%;
+    border-color: #d8d8d8;
+    -moz-box-shadow: inset 0 1px 2px #e8e8e8;
+    -webkit-box-shadow: inset 0 1px 2px #e8e8e8;
+    box-shadow: inset 0 1px 2px #e8e8e8;
+    margin: 10px 0;
+}
+
+#np_delivery_lite {
+    margin: 10px 0;
+}
+
+
+#admin_address_np_lite {
+    display: block;
+    padding-top: 5px;
+}
+
+
+.themodal-lock {
+    overflow: hidden;
+}
+
+
+.themodal-overlay {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.themodal-overlay > * {
+    -webkit-transform: translateZ(0px);
+}
+
+
+.themodal-overlay {
+
+    background: rgba(0, 0, 0, 0.5);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endColorstr=#7F000000);
+
+    zoom: 1;
+
+}
+
+
+.modal-map_lite {
+
+    position: absolute;
+
+    background-color: #fff;
+
+    width: 80%;
+
+    height: 80%;
+
+    margin: 5% 10%;
+
+    border-radius: 5px;
+
+    min-width: 300px;
+
+    min-height: 150px;
+
+}
+
+.modal-map_lite .close {
+
+    width: 20px;
+
+    height: 20px;
+
+    border-radius: 10px;
+
+    color: #fff;
+
+    background-color: #999;
+
+    float: right;
+
+    margin: 5px;
+
+}
+
+
+#map_canvas_lite {
+
+    width: 100%;
+
+    height: 100%;
+
+    border-bottom-left-radius: 5px;
+
+    border-bottom-right-radius: 5px;
+
+}
+
+
+#view_on_map_lite {
+
+    float: right;
+
+}
+
+#werehouse_label_lite {
+
+    color: #999;
+
+    margin-left: 20px;
+
+}
+
+.my-select_lite {
+    margin: 5px 0 10px 0
+}
+
+.my-select-result_lite {
+    border: 1px solid #d8d8d8;
+    padding: 5px 3px;
+    position: relative;
+    cursor: pointer;
+}
+
+.my-select-drop_lite {
+    display: none;
+}
+
+.my-select-options_lite {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.my-select-drop_lite {
+    position: absolute;
+    z-index: 9999;
+    background-color: #fff;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #d8d8d8;
+}
+
+#my_select_search_field_lite {
+    height: 30px;
+    margin: 5px 0;
+}
+
+.my-select-options_lite .my-select-option_lite {
+    text-align: left;
+    padding: 5px 0 5px 10px;
+    overflow: hidden
+}
+
+.my-select-options_lite .my-select-option_lite:hover {
+    background-color: #d2edfe
+}
+
+.my-select-search_lite {
+    padding: 0 10px;
+}
+
+
+.triangle-np_delivery_lite {
+
+    position: absolute;
+
+    right: 5px;
+
+    top: 10px;
+
+    width: 0;
+
+    height: 0;
+
+    border-style: solid;
+
+    border-width: 6px 5px 0 5px;
+
+    border-color: #ccc transparent transparent transparent;
+
+}
+
+.triangle-top_lite {
+
+    position: absolute;
+
+    right: 5px;
+
+    top: 10px;
+
+    width: 0;
+
+    height: 0;
+
+    border-style: solid;
+
+    border-width: 0 5px 6px 5px;
+
+    border-color: transparent transparent #ccc transparent;
+
+
+}
+
+.np-tracking {
+    width: 300px;
+    padding: 10px 0;
+}
+
+.np-tracking .frame-form-field {
+    width: 200px;
+}
+
+.np-tracking .title {
+    margin-bottom: 5px;
+}
+
+.np-tracking .info {
+    margin-top: 5px;
+}
+
+.np-tracking .search {
+    /*background: url(../images/search.png) no-repeat;*/
+    background-size: contain;
+    cursor: pointer;
+    width: 28px;
+    right: 2px;
+    top: 2px;
+    height: 28px;
+    position: absolute;
+    display: inline-block;
+}
+
+.np-tracking .error {
+    color: #000;
+    border-color: red;
+}
+
+.themodal-lock {
+
+    overflow: hidden;
+
+}
+
+
+.themodal-overlay {
+
+    position: fixed;
+
+    bottom: 0;
+
+    left: 0;
+
+    top: 0;
+
+    right: 0;
+
+    z-index: 9999;
+
+    overflow: auto;
+
+    -webkit-overflow-scrolling: touch;
+
+
+}
+
+.themodal-overlay > * {
+
+    -webkit-transform: translateZ(0px);
+
+}
+
+
+.themodal-overlay {
+
+    background: rgba(0, 0, 0, 0.5);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000, endColorstr=#7F000000);
+
+    zoom: 1;
+
+}
+
+
+.modal-map {
+
+    position: absolute;
+
+    background-color: #fff;
+
+    width: 80%;
+
+    height: 80%;
+
+    margin: 5% 10%;
+
+    border-radius: 5px;
+
+    min-width: 300px;
+
+    min-height: 150px;
+
+}
+
+.modal-map .close {
+
+    width: 20px;
+
+    height: 20px;
+
+    border-radius: 10px;
+
+    color: #fff;
+
+    background-color: #999;
+
+    float: right;
+
+    margin: 5px;
+
+}
+
+
+#map_canvas_lite {
+
+    width: 100%;
+
+    height: 100%;
+
+    border-bottom-left-radius: 5px;
+
+    border-bottom-right-radius: 5px;
+
+}
